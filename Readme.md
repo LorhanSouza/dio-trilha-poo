@@ -3,11 +3,9 @@
 ## Diagrama UML(Mermaid)
 ```mermaid
 classDiagram
-    class iPhone{
-        iPhone -- |> ReprodutorMusical
-        iPhone -- |> AparelhoTelefonico
-        iPhone -- |> Navegador
-    }
+    iPhone -- |> ReprodutorMusical
+    iPhone -- |> AparelhoTelefonico
+    iPhone -- |> Navegador
     class ReprodutorMusical{
       +selecionarMusica(String musica)
       +tocar()
